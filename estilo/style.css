@@ -1,0 +1,73 @@
+    body { 
+    padding: 0;
+    margin: 0;
+    }
+    header {
+        background-color: rgb(236, 59, 59);
+    }
+    footer {
+        position:absolute;
+        bottom:0;
+        left:0;
+        background-color: rgb(59, 175, 74);
+        width: 98%;
+        padding: 2%;
+    }
+    .avatar {
+        background-color:black;
+        padding: 10px 10px 10px 10px;
+        display:block;
+    }
+    .titulo-cabeçalho {
+        text-align: center;
+        padding-left: 10px 0px 10px 0px;
+    }
+    main { 
+        padding: 2% 2% 0% 2%;
+    }
+
+    nav ul {
+        background-color: rgb(199, 159, 233);
+        overflow: hidden;
+        height: 40px;
+        border-radius: 15px;
+        padding: 10px 0px 0px 10px;
+    }
+    nav li {
+        background-color: rgb(85, 33, 131);
+        width: 80px;
+        min-width: 100px;
+        border-radius: 5px;
+        float: left;
+        text-align: center;
+        list-style-type: none;
+        margin: 0px 0px 0px 5px;
+    }
+    nav a {
+        color:aqua;
+        text-decoration: none;
+        display: block;
+    }
+    nav a:hover {
+        color: red;
+        background-color: black;
+        border-radius: 5px 0px 5px 0px;
+    }
+    footer ul {
+        background-color: rgb(170, 118, 216);
+        text-decoration: none;
+    }
+    footer a {
+        color: rgb(255, 255, 250);
+        text-decoration: none;
+    }
+    footer a:hover{
+        color:red;
+    }
+    table,
+    td,
+    td{
+        border: 1px solid rgb(212, 16, 16);
+        border-collapse: collapse;
+        text-align: center;
+    }   
